@@ -218,3 +218,23 @@ This uses a cryptographically secure random number generator, which is better su
 You may reference and use the website demo here: https://github.com/DupeSoft/Website-Demo
 
 it's script.js file has public worker URL placeholders so you can see how it works.
+
+
+# CMS Preview
+
+<img width="1343" height="580" alt="Screenshot 2026-08-14 012919" src="https://github.com/user-attachments/assets/047bd8c2-29b4-49b0-ad56-a0d69d0144c6" />
+
+<img width="1336" height="666" alt="Screenshot 2026-08-14 013004" src="https://github.com/user-attachments/assets/bc604a1c-ef5a-4932-b405-2ac8b0c7bf1e" />
+
+<img width="1362" height="694" alt="Screenshot 2026-08-14 013053" src="https://github.com/user-attachments/assets/4ae833f2-5fa5-483a-b301-d1c18e42963d" />
+
+<img width="790" height="626" alt="Screenshot 2026-08-14 013105" src="https://github.com/user-attachments/assets/2b7eb9e4-716d-4d39-8fa6-6b44dc20ed0d" />
+
+<img width="1399" height="780" alt="Screenshot 2026-08-14 012946" src="https://github.com/user-attachments/assets/6779640e-76b8-41a8-b309-7da7cbaa3e8a" />
+
+
+
+
+
+
+
