@@ -215,3 +215,6 @@ For stronger random secrets, use this command instead of the Get-Random command 
 
 This uses a cryptographically secure random number generator, which is better suited for security tokens and session secrets.
 
+You may reference and use the website demo here: https://github.com/DupeSoft/Website-Demo
+
+it's script.js file has public worker URL placeholders so you can see how it works.
