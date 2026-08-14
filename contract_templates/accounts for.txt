@@ -1,0 +1,27 @@
+accounts for: 
+
+protonmail
+GitHub - Username: [GITHUB USERNAME]
+Cloudflare
+PorkBun (yet to make)
+
+
+
+password: "[INITIAL PASSWORD]" (without quotes)
+email: [PROJECT EMAIL]
+
+
+
+Website Package for [CLIENT BUSINESS NAME] – [PROJECT PRICE]
+
+Custom website for the [CLIENT BUSINESS TYPE] (design + build)
+
+Domain registration and setup (1 year)
+
+Connection to hosting (GitHub Pages)
+
+CMS access for editing text, images, and colors (you own this forever)
+
+Basic SEO setup (titles, descriptions, sitemap, robots.txt)
+
+One round of minor edits after launch (menu, hours, etc.)

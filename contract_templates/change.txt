@@ -1,0 +1,81 @@
+change:
+
+[CURRENT WEBSITE URL]
+
+in:
+
+index.html X2
+llms.txt X1
+robots.txt X1
+sitemap.xml X3
+CNAME
+-------------------
+
+monthly pricing options/offers: [MONTHLY SERVICE PRICE] a month for:
+
+
+annual domain & Email renewal/ update year on footer
+monthly payment plan for cost of website dev (separate), requires down payment
+
+
+Personal Costs:
+
+Hosting/website platform: [MONTHLY HOSTING COST]
+Domain: [ANNUAL DOMAIN COST]
+Email: [ANNUAL EMAIL COST]
+
+
+to avoid legal issue use: [DOMAIN OPTION 1] 
+
+[DOMAIN OPTION 2]
+[DOMAIN OPTION 3]
+[DOMAIN OPTION 4]
+[DOMAIN OPTION 5]
+[DOMAIN OPTION 6]
+[DOMAIN OPTION 7]
+[DOMAIN OPTION 8]
+[DOMAIN OPTION 9]
+[DOMAIN OPTION 10]
+[DOMAIN OPTION 11]
+[DOMAIN OPTION 12]
+[DOMAIN OPTION 13]
+[DOMAIN OPTION 14]
+[DOMAIN OPTION 15]
+[DOMAIN OPTION 16]
+[DOMAIN OPTION 17]
+------------------------------------------------------------------------
+
+
+
+purchase the domain ([DOMAIN COST], ([PREFERRED DOMAIN]) domain is taken though
+
+claim the yelp page
+
+create the Google business and tag manager
+
+SEO improvements
+
+FAQ section
+
+Special Alerts Banner
+
+They frequently post about:
+
+Daily specials ([EXAMPLE DAILY SPECIAL])
+
+Sold-out items
+
+Weather-related closures
+
+Solution: Prominent banner section they can manually update
+
+Simple Contact Form
+For catering inquiries or special events
+
+qr code for the menu
+
+order system or doordash grub listings
+
+admin panel for menu and baner updates
+
+find us button for email and text alerts
