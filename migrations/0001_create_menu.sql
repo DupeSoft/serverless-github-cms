@@ -1,0 +1,8 @@
+-- Migration number: 0001 	 2024-12-27T22:04:18.794Z
+CREATE TABLE IF NOT EXISTS menu_items (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  section TEXT NOT NULL,
+  title TEXT NOT NULL,
+  description TEXT NOT NULL,
+  price TEXT NOT NULL
+);

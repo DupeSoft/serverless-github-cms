@@ -1,0 +1,87 @@
+/**
+ * Public Worker: Read-only menu API
+ * 
+ * Wrangler Binding:
+ *   D1 database binding name = "public"
+ *   Database ID        = 766eeb0c-6446-41c6-a976-518f7ecc9a8c
+ *   Database Name      = d1-database
+ */
+
+export default {
+  async fetch(request, env) {
+    const url = new URL(request.url);
+    const pathname = url.pathname;
+
+    // CORS headers for public access
+    const corsHeaders = {
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "GET, OPTIONS",
+      "Access-Control-Allow-Headers": "Content-Type",
+      "Cache-Control": "public, max-age=300"
+    };
+
+    // CORS preflight
+    if (request.method === "OPTIONS") {
+      return new Response(null, {
+        status: 204,
+        headers: corsHeaders
+      });
+    }
+
+    // Only allow GET
+    if (request.method !== "GET") {
+      return new Response("Method not allowed", {
+        status: 405,
+        headers: corsHeaders
+      });
+    }
+
+    // GET / or /menu → return menu items
+    if (pathname === "/" || pathname === "/menu") {
+      try {
+        // env.public is your D1 binding
+        const stmt = env.public.prepare(
+          "SELECT * FROM menu_items ORDER BY section, title"
+        );
+        const { results } = await stmt.all();
+
+        return new Response(JSON.stringify(results, null, 2), {
+          status: 200,
+          headers: {
+            ...corsHeaders,
+            "content-type": "application/json"
+          }
+        });
+      } catch (err) {
+        console.error("Database error:", err);
+        return new Response("Internal server error", {
+          status: 500,
+          headers: corsHeaders
+        });
+      }
+    }
+
+    // GET /health → health check
+    if (pathname === "/health") {
+      return new Response(
+        JSON.stringify({
+          status: "healthy",
+          timestamp: new Date().toISOString()
+        }),
+        {
+          status: 200,
+          headers: {
+            ...corsHeaders,
+            "content-type": "application/json"
+          }
+        }
+      );
+    }
+
+    // 404 fallback
+    return new Response("Not found", {
+      status: 404,
+      headers: corsHeaders
+    });
+  }
+};

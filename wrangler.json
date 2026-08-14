@@ -1,0 +1,24 @@
+{
+  "compatibility_date": "2025-04-01",
+  "main": "src/index.ts",
+  "name": "worker-d1",
+
+  "workers_dev": true,
+  "preview_urls": true,
+
+  "vars": {
+    "ALLOWED_LOGIN": "YOUR-USERNAME-HERE",
+    "GITHUB_OAUTH_CLIENT_ID": "INSERT-OAUTH-ID-HERE"
+  },
+
+  "upload_source_maps": true,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_id": "INSERT-DB-ID-HERE",
+      "database_name": "d1-database"
+    }
+  ],
+  "observability": { "enabled": true },
+  "keep_vars": true
+}
