@@ -1,6 +1,8 @@
 # serverless-github-cms
 Serverless CMS built with Cloudflare Workers, D1, GitHub OAuth, and GitHub APIs. Includes live site previews, visual CSS editing, image/media management, database-backed content editing, public read-only APIs, and GitHub-based deployment workflows.
 
+I have included contract templates for clients within a folder that you may use.
+
 # Video Guide: https://anonmp4.art/v/ZLzWrD6pz3hyvOz
 
 # CMS Video Demo: https://anonmp4.art/v/pjMME62d3E5VTCW
