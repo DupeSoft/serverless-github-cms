@@ -1,0 +1,24 @@
+info you will need:
+
+ALLOWED_LOGIN(username):
+
+GITHUB_OAUTH_CLIENT_ID:
+
+GITHUB_OAUTH_CLIENT_SECRET:
+
+GITHUB_TOKEN(PAT):
+
+ADMIN_TOKEN(random):
+
+SESSION_SECRET(random):
+             
+(PowerShell): "[Convert]::ToBase64String((1..32 | ForEach-Object { Get-Random -Max 256 }))"
+
+USERNAME_TOKEN(random):
+
+
+worker url:
+
+
+
+DB ID:
